@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Input samples</title>
+    <style>
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><label for="checkbox">input[type="checkbox"]</label></td>
+            <td><input id="checkbox" type="checkbox" /></td>
+            <td>Used for multi selection</td>
+        </tr>
+        <tr>
+            <td><label for="color">input[type="color"]</label></td>
+            <td><input id="color" type="color" /></td>
+            <td>Color picker control</td>
+        </tr>
+        <tr>
+            <td><label for="date">input[type="date"]</label></td>
+            <td><input id="date" type="date" /></td>
+            <td>Date only control</td>
+        </tr>
+        <tr>
+            <td><label for="datetime">input[type="datetime"]</label></td>
+            <td><input id="datetime" type="datetime" /></td>
+            <td>This was a control for entering date and time along with timezone. The control is obsolete now, it is recommended to use datetime-local.</td>
+        </tr>
+        <tr>
+            <td><label for="datetime-local">input[type="datetime-local"]</label></td>
+            <td><input id="datetime-local" type="datetime-local" /></td>
+            <td>Date and time control for allowing users to select the desired date and time.</td>
+        </tr>
+        <tr>
+            <td><label for="email">input[type="email"]</label></td>
+            <td><input id="email" type="email" pattern=".+@gmail.com" /></td>
+            <td>Used to let the user enter and edit an e-mail address, or, if the <span class="red">multiple</span> attribute is specified, a list of e-mail addresses. The input value is automatically validated to ensure that it's either empty or a properly-formatted e-mail address (or list of addresses) before the form can be submitted. The :valid and :invalid CSS pseudo-classes are automatically applied as appropriate to visually denote whether the current value of the field is a valid e-mail address or not.</td>
+        </tr>
+        <tr>
+            <td><label for="file">input[type="file"]</label></td>
+            <td><input id="file" type="file" /></td>
+            <td>Lets the user choose more than one files (on usage of multiple attribute). The file(s) is/are uploaded using form submission and File API.</td>
+        </tr>
+        <tr>
+            <td><label for="hidden">input[type="hidden"]</label></td>
+            <td><input id="hidden" type="hidden" /></td>
+            <td>Lets developer store user specific data or session specific data. Used for state management.</td>
+        </tr>
+        <tr>
+            <td><label for="image">input[type="image"]</label></td>
+            <td><input id="image" type="image" /></td>
+            <td>Used for creating graphical submit button. When provided an src attribute, will use the image as button.</td>
+        </tr>
+        <tr>
+            <td><label for="month">input[type="month"]</label></td>
+            <td><input id="month" type="month" /></td>
+            <td>Allows user to specify month along with year. Can be limited to a specific month and year using min and max attributes. Display format: MMM, YYYY and Attribute value: YYYY-MM.</td>
+        </tr>
+        <tr>
+            <td><label for="number">input[type="number"]</label></td>
+            <td><input id="number" type="number" /></td>
+            <td>Restricts user by only allowing numeric values as input. Allows e since e stands for exponential.</td>
+        </tr>
+        <tr>
+            <td><label for="password">input[type="password"]</label></td>
+            <td><input id="password" type="password" /></td>
+            <td>Visually hides user inputs and overrides * as the display value.</td>
+        </tr>
+        <tr>
+            <td><label for="radio">input[type="radio"]</label></td>
+            <td><input id="radio" type="radio" /></td>
+            <td>Allows user to select only out of the specified range of values. An alternative to select element. Can be preferrable in scenarios where the range is limited upto 3-4 max, and never changing.</td>
+        </tr>
+        <tr>
+            <td><label for="range">input[type="range"]</label></td>
+            <td><input id="range" type="range" /></td>
+            <td>Allows user to select from a specified range of numeric values.</td>
+        </tr>
+        <tr>
+            <td><label for="reset">input[type="reset"]</label></td>
+            <td><input id="reset" type="reset" /></td>
+            <td>An input button control, used for resetting the user input, which is selected by default.</td>
+        </tr>
+        <tr>
+            <td><label for="search">input[type="search"]</label></td>
+            <td><input id="search" type="search" /></td>
+            <td>Similar to text input, but created for allowing user to mention search queries.</td>
+        </tr>
+        <tr>
+            <td><label for="tel">input[type="tel"]</label></td>
+            <td><input id="tel" type="tel" /></td>
+            <td>A separate input field for entering telephone number. Unlike email and url, no immediate validation is done, since the telephone number format is not fixed accross countries.</td>
+        </tr>
+        <tr>
+            <td><label for="text">input[type="text"]</label></td>
+            <td><input id="text" type="text" /></td>
+            <td>Traditional user text input field.</td>
+        </tr>
+        <tr>
+            <td><label for="time">input[type="time"]</label></td>
+            <td><input id="time" type="time" /></td>
+            <td>Allows user to input only time value.</td>
+        </tr>
+        <tr>
+            <td><label for="url">input[type="url"]</label></td>
+            <td><input id="url" type="url" /></td>
+            <td>Allows user to input url of a specified pattern or format.</td>
+        </tr>
+        <tr>
+            <td><label for="week">input[type="week"]</label></td>
+            <td><input id="week" type="week" /></td>
+            <td>Allows user to input week number during that year.</td>
+        </tr>
+    </table>
+</body>

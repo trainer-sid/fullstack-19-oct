@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User Registration</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td><img src="logo.jpg" width="36px" height="36px" /></td>
+                            <td>
+                                <h2>User Registration</h2>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="userName">User Name</label></td>
+                <td><input type="text" id="userName" name="userName" /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password" name="password" /></td>
+            </tr>
+            <tr>
+                <td><label for="confirmPassword">Confirm Password</label></td>
+                <td><input type="password" id="confirmPassword" name="confirmPassword" /></td>
+            </tr>
+            <tr>
+                <td><label for="title">Title</label></td>
+                <td><select id="title" name="title">
+                        <option value="Select">Select</option>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Ms">Ms</option>
+                        <option value="Mrs.">Mrs.</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="firstName">First Name</label></td>
+                <td><input type="text" id="firstName" name="firstName" /></td>
+            </tr>
+            <tr>
+                <td><label for="lastName">Last Name</label></td>
+                <td><input type="text" id="lastName" name="lastName" /></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input type="radio" id="gender_M" value="M" name="gender" /></td>
+                            <td><label for="gender_M">Male</label></td>
+                            <td><input type="radio" id="gender_F" value="F" name="gender" /></td>
+                            <td><label for="gender_F">Female</label></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td><input type="checkbox" id="tnc" name="tnc" /></td>
+                            <td><label for="tnc" />I agree to the terms and conditions</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table style="float: right;">
+                        <tr>
+                            <td><input type="submit" /></td>
+                            <td><input type="button" value="Cancel" /></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
